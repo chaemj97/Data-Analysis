@@ -15,6 +15,6 @@
 
 유투브 강의 목록 : https://www.youtube.com/playlist?list=PLVsNizTWUw7HpqmdphX9hgyWl15nobgQX
 
-목표 : 23.04.05~23.04.17(2주)
+목표 : 23.04.09~23.04.18(10일)
 
-기간 : 23.04.05~
+기간 : 23.04.09~
