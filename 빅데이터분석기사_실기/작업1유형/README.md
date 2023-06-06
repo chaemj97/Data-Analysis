@@ -11,3 +11,24 @@ from scipy.stats import chi2_contingency
 observed : 관찰빈도로 pd.crosstab 결과 값을 입력
 chi2,p,dof,expected = chi2_contingency(observed)
 # return 카이제곱 통계량 값, p-value, 자유도, 테이블의 합계를 기반으로 한 기대빈도
+
+- 결측치가 존재하는 행 모두 지우기
+df = df.dropna()
+
+- 리스트형태의 값을 여러 행으로 전개
+df.explode()
+```
+     col1       col2
+0   [1, 2]     [a, b]
+1      [3]        [c]
+2   [4, 5]  [d, e, f]
+
+df.explode('col')
+
+   col1       col2
+0     1     [a, b]
+0     2     [a, b]
+1     3        [c]
+2     4  [d, e, f]
+2     5  [d, e, f]
+```
