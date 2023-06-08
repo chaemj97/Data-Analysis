@@ -32,3 +32,12 @@ df.explode('col')
 2     4  [d, e, f]
 2     5  [d, e, f]
 ```
+
+
+
+- datetime.datetime.strptime(aa,'%Y') 은 문자열을 날짜 객체로 변환
+- df.dt.strfime('Y')은 날짜 객체를 문자열로 반환
+- 한 객체 내에서 열과 열  행과 행의 차이를 출력하는 메서드
+  df[].diff()
+  기본값 periods=1,axis=0
+
