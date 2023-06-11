@@ -41,3 +41,15 @@ df.explode('col')
   df[].diff()
   기본값 periods=1,axis=0
 
+- stcak
+컬럼을 인덱스로 보내는 역할(멀티인덱스)
+- unstack
+인덱스 값을 컬럼으로 올려준다.
+
+- 랜덤 포레스트 회귀 예측
+from sklearn.ensemble import RandomForestRegressor
+ml = RandomForestRegressor()
+ml.fit(x,y)
+- 변수 중요도
+ml.feature_importances_
+
