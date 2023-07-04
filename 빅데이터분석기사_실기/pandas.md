@@ -8,7 +8,7 @@ float로 type 변환 : df[].astype('float')
 a 컬럼 값에 따라 오름차순으로 정렬 : df.sort_values('a')
 내림차순 : ascending = False
 
-a 단어 포함 : df[].str.contains('a')
+index를 0부터 정렬 : df.reset_index(drop=True)
 
 item_name를 기준으로 중복행이 있으면 제거하되 첫번째 케이스만 남기기 : a.drop_duplicates('item_name')
 마지막 케이스만 남기기 : a.drop_duplicates('item_name',keep='last')
